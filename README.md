@@ -3,6 +3,14 @@
 ## Overview
 This C program swaps the nibbles of a given hexadecimal value and prints the swapped value. Nibbles are groups of 4 bits. For instance, in the hexadecimal value `0x1234`, `1` and `2` form one nibble, and `3` and `4` form another nibble.
 
+Breaking it down:
+- `1` represents `0001` in binary.
+- `2` represents `0010` in binary.
+- `3` represents `0011` in binary.
+- `4` represents `0100` in binary.
+
+So in hexadecimal, `0x1234` represents the binary sequence `0001 0010 0011 0100`.
+
 The code defines a macro `nibble(n)` to perform the nibble swapping operation.
 
 ## Macro Explanation
